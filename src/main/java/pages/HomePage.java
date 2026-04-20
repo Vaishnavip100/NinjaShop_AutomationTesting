@@ -88,7 +88,7 @@ public class HomePage extends BasePage{
 	private By viewCart = By.xpath("//p//a[contains(@href,'route=checkout/cart')]");
 	public CartPage goToCart() {
 	    click(cartBtn);
-	    wait.until(ExpectedConditions.visibilityOfElementLocated(viewCart));
+	   	waitForVisibility(viewCart));
 	    click(viewCart);
 	    return new CartPage(driver);
 	}
