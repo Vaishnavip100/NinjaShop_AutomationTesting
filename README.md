@@ -112,7 +112,7 @@ NinjaShop
 ### Maven
 
 ```bash
-mvn clean test
+mvn test
 ```
 
 ### TestNG
@@ -136,7 +136,6 @@ browser=chrome
 
 * Extent → `/reports/`
 * Screenshots → `/screenshots/`
-* TestNG → `/test-output/`
 
 ---
 
