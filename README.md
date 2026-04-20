@@ -12,7 +12,6 @@ A Selenium-based automation framework built using Java, TestNG, Maven, and Page 
 * Maven
 * Page Object Model (POM)
 * Extent Reports
-* Apache POI
 
 ---
 
