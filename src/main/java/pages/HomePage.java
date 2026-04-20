@@ -68,10 +68,6 @@ public class HomePage extends BasePage{
 	            return new ProductPage(driver);
 	        }
 	    }
-//	    System.out.println("Available products:");
-//	    for (WebElement element : driver.findElements(productTitles)) {
-//	        System.out.println(element.getText());
-//	    }
 	    throw new RuntimeException("Product not found: " + productName);
 	}
 	
